@@ -1,0 +1,16 @@
+2025-04-01 17:51:55,371 [WARNING] Database schema invalid, recreating...
+2025-04-01 17:51:55,382 [CRITICAL] Database setup failed: [WinError 32] The process cannot access the file because it is being used by another process: 'data\\users.db'
+2025-04-01 18:01:36,636 [INFO] Creating new database file
+2025-04-01 18:01:37,191 [CRITICAL] Application crash: name 'auth_pages' is not defined
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 208, in main
+    auth_pages()
+    ^^^^^^^^^^
+NameError: name 'auth_pages' is not defined
+2025-04-01 18:05:08,108 [INFO] Creating new database file
+2025-04-01 18:05:08,633 [CRITICAL] Application crash: name 'auth_pages' is not defined
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 208, in main
+    auth_pages()
+    ^^^^^^^^^^
+NameError: name 'auth_pages' is not defined

@@ -1,0 +1,23 @@
+{
+  "readings": [
+    {
+      "timestamp": "2025-04-01T08:00:00",
+      "sensor_id": "sensor_1",
+      "flow_rate": 12.5,
+      "pressure": 2.1,
+      "temperature": 22.4,
+      "leak_detected": false,
+      "location": "kitchen"
+    },
+    {
+      "timestamp": "2025-04-01T08:05:00",
+      "sensor_id": "sensor_1",
+      "flow_rate": 45.2,
+      "pressure": 0.8,
+      "temperature": 21.9,
+      "leak_detected": true,
+      "location": "kitchen"
+    }
+  ]
+}
+  

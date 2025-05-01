@@ -1,0 +1,30 @@
+def verify_db():
+    st.header("Database Verification")
+    
+    db_path = os.path.abspath("data/users.db")
+    st.write(f"Database path: {db_path}")
+    
+    if not os.path.exists(db_path):
+        st.error("Database file not found!")
+        return
+    
+    try:
+        with sqlite3.connect(db_path) as conn:
+            cursor = conn.cursor()
+            
+            # Check tables
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+            tables = cursor.fetchall()
+            st.write("Tables found:", tables)
+            
+            # Check users table structure
+            if any('users' in table for table in tables):
+                cursor.execute("PRAGMA table_info(users)")
+                st.write("Users table columns:", cursor.fetchall())
+                
+    except Exception as e:
+        st.error(f"Verification failed: {str(e)}")
+
+# Add to your main() function temporarily
+if st.sidebar.checkbox("Show DB Verification"):
+    verify_db()

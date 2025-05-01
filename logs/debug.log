@@ -1,0 +1,13 @@
+2025-04-01 17:51:55,359 [WARNING] debug:106 - Missing tables: {'password_reset', 'users'}
+2025-04-01 18:01:36,659 [INFO] debug:129 - Database directory: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 18:01:37,148 [INFO] debug:156 - Database schema initialized
+2025-04-01 18:01:37,190 [INFO] debug:179 - Database verification passed
+2025-04-01 18:05:08,132 [INFO] debug:129 - Database directory: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 18:05:08,629 [INFO] debug:156 - Database schema initialized
+2025-04-01 18:05:08,632 [INFO] debug:179 - Database verification passed
+2025-04-01 18:07:43,937 [INFO] debug:182 - Database verification passed
+2025-04-01 18:07:43,937 [INFO] debug:182 - Database verification passed
+2025-04-01 18:08:21,812 [INFO] debug:182 - Database verification passed
+2025-04-01 18:08:21,812 [INFO] debug:182 - Database verification passed
+2025-04-01 18:08:21,812 [INFO] debug:182 - Database verification passed
+2025-04-01 20:00:00,861 [INFO] debug:182 - Database verification passed

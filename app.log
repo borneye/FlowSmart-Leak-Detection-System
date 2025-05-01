@@ -1,0 +1,129 @@
+2025-04-01 15:01:34,574 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 15:01:35,312 - INFO - Database tables initialized
+2025-04-01 15:01:35,313 - INFO - New database created
+2025-04-01 15:07:00,721 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 15:07:00,721 - INFO - Existing database found
+2025-04-01 15:11:16,825 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 15:11:16,891 - INFO - Existing database found
+2025-04-01 15:22:13,331 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 15:22:13,348 - INFO - Existing database found
+2025-04-01 15:57:51,304 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 15:57:51,637 - INFO - Existing database found
+2025-04-01 16:13:27,535 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:13:27,560 - DEBUG - Existing database found
+2025-04-01 16:15:53,450 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:15:53,453 - DEBUG - Existing database found
+2025-04-01 16:15:53,686 - DEBUG - Database connection established
+2025-04-01 16:15:53,808 - ERROR - Registration error: no such table: users
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 188, in register_user
+    conn.execute(
+    ~~~~~~~~~~~~^
+        "INSERT INTO users (username, email, password_hash) VALUES (?, ?, ?)",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (username, email, hash_password(password)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: users
+2025-04-01 16:16:12,706 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:16:12,706 - DEBUG - Existing database found
+2025-04-01 16:16:12,748 - DEBUG - Database connection established
+2025-04-01 16:16:12,750 - ERROR - Registration error: no such table: users
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 188, in register_user
+    conn.execute(
+    ~~~~~~~~~~~~^
+        "INSERT INTO users (username, email, password_hash) VALUES (?, ?, ?)",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (username, email, hash_password(password)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: users
+2025-04-01 16:16:14,375 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:16:14,376 - DEBUG - Existing database found
+2025-04-01 16:16:14,398 - DEBUG - Database connection established
+2025-04-01 16:16:14,400 - ERROR - Registration error: no such table: users
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 188, in register_user
+    conn.execute(
+    ~~~~~~~~~~~~^
+        "INSERT INTO users (username, email, password_hash) VALUES (?, ?, ?)",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (username, email, hash_password(password)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: users
+2025-04-01 16:16:15,520 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:16:15,521 - DEBUG - Existing database found
+2025-04-01 16:16:15,542 - DEBUG - Database connection established
+2025-04-01 16:16:15,545 - ERROR - Registration error: no such table: users
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 188, in register_user
+    conn.execute(
+    ~~~~~~~~~~~~^
+        "INSERT INTO users (username, email, password_hash) VALUES (?, ?, ?)",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (username, email, hash_password(password)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: users
+2025-04-01 16:16:16,369 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:16:16,369 - DEBUG - Existing database found
+2025-04-01 16:16:16,385 - DEBUG - Database connection established
+2025-04-01 16:16:16,389 - ERROR - Registration error: no such table: users
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 188, in register_user
+    conn.execute(
+    ~~~~~~~~~~~~^
+        "INSERT INTO users (username, email, password_hash) VALUES (?, ?, ?)",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (username, email, hash_password(password)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: users
+2025-04-01 16:16:17,184 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:16:17,184 - DEBUG - Existing database found
+2025-04-01 16:16:17,199 - DEBUG - Database connection established
+2025-04-01 16:16:17,206 - ERROR - Registration error: no such table: users
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 188, in register_user
+    conn.execute(
+    ~~~~~~~~~~~~^
+        "INSERT INTO users (username, email, password_hash) VALUES (?, ?, ?)",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (username, email, hash_password(password)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: users
+2025-04-01 16:16:49,401 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:16:49,402 - DEBUG - Existing database found
+2025-04-01 16:16:49,412 - DEBUG - Database connection established
+2025-04-01 16:16:49,415 - CRITICAL - Application crash: no such table: users
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 351, in main
+    auth_pages()
+    ~~~~~~~~~~^^
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 236, in auth_pages
+    user = conn.execute(
+           ~~~~~~~~~~~~^
+        "SELECT password_hash FROM users WHERE username = ?",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (username,)
+        ^^^^^^^^^^^
+    ).fetchone()
+    ^
+sqlite3.OperationalError: no such table: users
+2025-04-01 16:23:34,949 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:23:34,951 - DEBUG - Existing database found
+2025-04-01 16:23:57,233 - INFO - Database folder: C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\data
+2025-04-01 16:23:57,235 - DEBUG - Existing database found
+2025-04-01 16:23:57,245 - DEBUG - Database connection established
+2025-04-01 16:23:57,246 - CRITICAL - Application crash: no such table: users
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 351, in main
+    auth_pages()
+    ~~~~~~~~~~^^
+  File "C:\Users\user\Documents\Flow-Smart-IOT-leak-prevention-system\data_analytics_platform\app.py", line 236, in auth_pages
+    user = conn.execute(
+           ~~~~~~~~~~~~^
+        "SELECT password_hash FROM users WHERE username = ?",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (username,)
+        ^^^^^^^^^^^
+    ).fetchone()
+    ^
+sqlite3.OperationalError: no such table: users
